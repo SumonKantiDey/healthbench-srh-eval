@@ -1,4 +1,4 @@
-### Beyond the Rubric: Cultural Misalignment in LLM Benchmarks for Sexual and Reproductive Health 
+### [Beyond the Rubric: Cultural Misalignment in LLM Benchmarks for Sexual and Reproductive Health](https://arxiv.org/pdf/2511.17554) 
 
 This repository contains the code and supplementary materials for the paper. It will be updated with more reproducible resources, such as data, scripts, and more. 
 
@@ -20,6 +20,8 @@ $ cp .env.example .env
 
 **🧑 Username**: `admin`  
 **🔒 Password**: `admin123`
+
+### Pipeline Details: [health_bench_eval.md](https://github.com/SumonKantiDey/healthbench-srh-eval/blob/main/health_bench_eval.md)
 
 ## 🔗 Paper & Citation
 If you use the code of this repository in your research, please cite our paper:

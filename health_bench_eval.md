@@ -1,6 +1,6 @@
-# 🩺 Reproduce HealthBench using MynaBot
+# 🩺 Reproduce HealthBench using Myna Bot
 
-This repository reproduces the HealthBench evaluation pipeline using responses generated from the **MynaBot** model. It includes both response generation and rubric-based evaluation using the SRH dataset extracted from the original HealthBench data.
+This repository reproduces the HealthBench evaluation pipeline using responses generated from the **Myna Bot** model. It includes both response generation and rubric-based evaluation using the SRH dataset extracted from the original HealthBench data.
 
 ## 📂 Dataset
 

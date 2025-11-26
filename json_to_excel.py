@@ -2,13 +2,14 @@ import pandas as pd
 import json 
 
 # Load JSON file
-json_file_path = "data/gpt4_grader.json"  # Change this to your actual path
+# json_file_path = "./data/gpt4_grader.json"  # Change this to your actual path
+json_file_path = "./data/gpt4_grader_gpt4o_nano_response.json"
 try:
     with open(json_file_path, "r") as f:
         data = json.load(f)
 except Exception as e:
     data = None
-    st.error(f"Failed to load JSON file: {e}")
+    print(f"Failed to load JSON file: {e}")
 
 rows = []
 
@@ -46,4 +47,5 @@ for record_id, record in enumerate(data, start=1):
 # 3. Create DataFrame
 df = pd.DataFrame(rows)
 # 4. Save to Excel
-df.to_excel("data/gpt4_grader.xlsx", index=False)
+# df.to_excel("./data/gpt4_grader.xlsx", index=False)
+df.to_excel("./data/gpt4_grader_gpt4o_nano_response.xlsx", index=False)
